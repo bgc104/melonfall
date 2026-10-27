@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Melonfall — Drop. Merge. Watermelon!</title>
+<meta name="description" content="Melonfall is a one-thumb fruit-merge puzzle for iPhone. Drop the fruit, merge the pairs, chase the watermelon.">
+<link rel="icon" type="image/png" href="/icon.png">
+<link rel="apple-touch-icon" href="/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --teal:#0B5563; --rind:#22A24B; --stripe:#0E6B33;
+    --flesh:#FF3B47; --cherry:#D92027; --cream:#FFF6E9; --ink:#1A1A1A;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+       background:var(--teal);color:var(--cream);line-height:1.55}
+  main{max-width:640px;margin:0 auto;padding:48px 20px 64px;text-align:center}
+  .icon{width:148px;height:148px;border-radius:32px;
+        box-shadow:0 10px 30px rgba(0,0,0,.35)}
+  .wordmark{font-family:"Fredoka",sans-serif;font-size:52px;font-weight:600;
+            letter-spacing:-.5px;margin:18px 0 0}
+  .wordmark .m{color:var(--flesh)} .wordmark .f{color:var(--cream)}
+  .tag{font-family:"Fredoka",sans-serif;font-size:21px;font-weight:500;margin:4px 0 26px}
+  p{margin:0 0 16px}
+  .body{text-align:left}
+  .ladder{font-size:26px;letter-spacing:2px;margin:22px 0 6px}
+  .soon{display:inline-block;border:1.5px solid var(--cream);border-radius:999px;
+        padding:8px 20px;font-family:"Fredoka",sans-serif;font-weight:600;
+        font-size:16px;margin:10px 0 6px}
+  .features{text-align:left;margin:26px 0}
+  .feat{background:rgba(255,246,233,.08);border:1px solid rgba(255,246,233,.18);
+        border-radius:14px;padding:16px 20px;margin:12px 0}
+  .feat strong{font-family:"Fredoka",sans-serif;font-weight:600;font-size:17px}
+  .feat p{margin:4px 0 0}
+  .card{background:rgba(255,246,233,.08);border:1px solid rgba(255,246,233,.18);
+        border-radius:14px;padding:20px 22px;margin:24px 0}
+  a{color:var(--cream);font-weight:600}
+  .btn{display:inline-block;background:var(--flesh);color:#fff;text-decoration:none;
+       padding:10px 18px;border-radius:999px;margin:4px 8px 4px 0}
+  .btn.alt{background:var(--rind)}
+  footer{margin-top:40px;font-size:14px;opacity:.75}
+</style>
+</head>
+<body>
+<main>
+  <img class="icon" src="/icon.png" alt="Melonfall app icon — a watermelon with a cherry dropping in">
+  <h1 class="wordmark"><span class="m">melon</span><span class="f">fall</span></h1>
+  <p class="tag">Drop. Merge. Watermelon!</p>
+
+  <p class="body">Drop fruit into the bin. When two matching fruits touch, they merge into
+  the next one up — cherry to strawberry, grape to orange, all the way to the
+  mighty watermelon. Chain your merges, ride the danger line, and see how long
+  you can survive before the bin overflows.</p>
+
+  <p class="ladder" aria-hidden="true">🍒 🍓 🍇 🍊 🍎 🍐 🍑 🍍 🍈 🍉</p>
+
+  <p><span class="soon">🍉 Coming soon to the App Store</span></p>
+
+  <div class="features">
+    <div class="feat">
+      <strong>One-thumb play</strong>
+      <p>Sessions of 2–5 minutes. Easy to start, almost impossible to put down.</p>
+    </div>
+    <div class="feat">
+      <strong>Global leaderboard</strong>
+      <p>Game Center high scores — see how your best run stacks up against the world.</p>
+    </div>
+    <div class="feat">
+      <strong>The Watermelon Counter</strong>
+      <p>Most players never make a watermelon. The game keeps a public count of
+      everyone who ever has — and gives you your maker number when you join them.
+      Think you're the exception?</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <p style="margin:0 0 10px"><strong>Need help, or found a bug?</strong></p>
+    <a class="btn" href="/support/">Support</a>
+    <a class="btn alt" href="/privacy/">Privacy Policy</a>
+  </div>
+
+  <footer>Melonfall for iPhone. Game Center leaderboard is optional — the game
+  is fully playable offline.</footer>
+</main>
+</body>
+</html>
