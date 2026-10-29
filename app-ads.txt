@@ -1,7 +1,3 @@
 # app-ads.txt for Melonfall (melonfall.com)
-# REQUIRED by AdMob before ads fully verify — but do NOT publish this file
-# until the AdMob account exists. When it does, replace the line below with
-# the exact publisher line from AdMob (Apps > app-ads.txt setup), which looks
-# like:
-# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
-# (publisher ID above is a format example only — not a real ID)
+# AdMob publisher verification line (account created Oct 28, 2026).
+google.com, pub-6264745506892869, DIRECT, f08c47fec0942fa0
